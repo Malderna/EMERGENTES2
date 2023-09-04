@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Persona" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports/>
+    <implements/>
+    <fields>
+        <variable access="private" type="String" type-java="String" name="nombre" enable="true"/>
+    </fields>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params>
+                <params type="String" type-java="String" name="nombre"/>
+            </params>
+            <throws/>
+            <body>
+                <assign dest="this.nombre" dest-java="this.nombre" src="nombre" src-java="nombre" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="public" type="void" type-java="void" name="setPersona" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params>
+                <params type="String" type-java="String" name="nombre"/>
+            </params>
+            <throws/>
+            <body>
+                <assign dest="this.nombre" dest-java="this.nombre" src="nombre" src-java="nombre" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="String" type-java="String" name="getPersona" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <return value="nombre" value-java="nombre" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
